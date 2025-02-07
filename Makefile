@@ -8,3 +8,6 @@ brain-games:
 publish:
 	@echo "Publishing..."
 	npm publish --dry-run
+lint:
+	@echo "Linting..."
+	npx eslint .
