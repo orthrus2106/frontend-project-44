@@ -5,3 +5,6 @@ install:
 brain-games:
 	@echo "Brain Games"
 	node bin/brain-games.js
+publish:
+	@echo "Publishing..."
+	npm publish --dry-run
