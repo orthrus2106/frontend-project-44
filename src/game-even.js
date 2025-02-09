@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import _ from 'lodash';
 
 const getRandomNumber = () => {
   const min = Math.ceil(1);
@@ -13,7 +14,7 @@ export const isEven = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   while (counter > 0) {
-    let randomNumber = getRandomNumber();
+    let randomNumber = _.random(0, 100);
     let answer = readlineSync.question(
       `Question: ${randomNumber}\nYour answer: `
     );
