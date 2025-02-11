@@ -11,3 +11,7 @@
 ## 🎥 Brain Calculator game demonstration:
 
 [View video](https://asciinema.org/a/v6fIELDmyuBVx2U5uvavMST3T)
+
+## 🎥 Brain GCD game demonstration:
+
+[View video](https://asciinema.org/a/G3ih6P015UVKekmUo7A5zXisR)
