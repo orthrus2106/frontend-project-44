@@ -19,13 +19,11 @@ export const brainEven = () => {
       counter -= 1;
     } else {
       console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was '${
-          randomNumber % 2 === 0 ? 'yes' : 'no'
-        }'.`
+        `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
       );
       return;
     }
-    randomNumber = getRandomNumber();
+    randomNumber = _.random(0, 100);
   }
 
   console.log(`Congratulations, ${userName}!`);
