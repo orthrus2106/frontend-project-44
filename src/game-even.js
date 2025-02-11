@@ -1,27 +1,20 @@
 import readlineSync from 'readline-sync';
 import _ from 'lodash';
 
-const getRandomNumber = () => {
-  const min = Math.ceil(1);
-  const max = Math.floor(100);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
-
-export const isEven = () => {
+export const brainEven = () => {
   let counter = 3;
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  console.log(
+    `Hello, ${userName}!\nAnswer "yes" if the number is even, otherwise answer "no".`
+  );
 
   while (counter > 0) {
     let randomNumber = _.random(0, 100);
     let answer = readlineSync.question(
       `Question: ${randomNumber}\nYour answer: `
     );
-    if (
-      (randomNumber % 2 === 0 && answer === 'yes') ||
-      (randomNumber % 2 !== 0 && answer === 'no')
-    ) {
+    let correctAnswer = randomNumber % 2 === 0 ? 'yes' : 'no';
+    if (answer === correctAnswer) {
       console.log('Correct!');
       counter -= 1;
     } else {
