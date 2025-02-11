@@ -7,3 +7,7 @@
 ## 🎥 Brain Even game demonstration:
 
 [View video](https://asciinema.org/a/I54hfgr4XroNDq7WA1tCSzCIc)
+
+## 🎥 Brain Calculator game demonstration:
+
+[View video](https://asciinema.org/a/v6fIELDmyuBVx2U5uvavMST3T)
