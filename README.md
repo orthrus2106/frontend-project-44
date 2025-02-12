@@ -15,3 +15,7 @@
 ## 🎥 Brain GCD game demonstration:
 
 [View video](https://asciinema.org/a/G3ih6P015UVKekmUo7A5zXisR)
+
+## 🎥 Brain Progression game demonstration:
+
+[View video](https://asciinema.org/a/SaGy9v1fZLIubJEoeGR754q7d)
