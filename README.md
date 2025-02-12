@@ -7,7 +7,7 @@
 ```console
 git clone https://github.com/orthrus2106/frontend-project-44
 cd brain-games
-npm install
+npm install # if npm doesn't installed on your device
 npm link
 ```
 
