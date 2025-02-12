@@ -1,8 +1,9 @@
 import readlineSync from 'readline-sync';
 
 export const runGame = (gameEngine, gameDescripton) => {
+  console.log(gameDescripton);
   const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!\n\n${gameDescripton}`);
+  console.log(`Hello, ${userName}!\n`);
   const gameRounds = 3;
   for (let i = 0; i < gameRounds; i += 1) {
     const [question, correctAnswer] = gameEngine();
