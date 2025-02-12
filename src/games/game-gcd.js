@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { runGame } from '../index.js';
-import { getGCD } from '../assets/getgcd.js';
+import runGame from '../index.js';
+import getGCD from '../assets/getgcd.js';
 
 const gameRule = 'Find the greatest common divisor of given numbers.';
 

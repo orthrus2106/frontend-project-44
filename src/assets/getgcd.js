@@ -1,10 +1,14 @@
-export const getGCD = (a, b) => {
-  while (a !== 0 && b !== 0) {
-    if (a > b) {
-      a = a % b;
+const getGCD = (a, b) => {
+  let x = a;
+  let y = b;
+  while (x !== 0 && y !== 0) {
+    if (x > y) {
+      x %= y;
     } else {
-      b = b % a;
+      y %= x;
     }
   }
-  return a + b;
+  return x + y;
 };
+
+export default getGCD;

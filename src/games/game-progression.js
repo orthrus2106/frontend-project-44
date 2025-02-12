@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { runGame } from '../index.js';
-import { getProgression } from '../assets/getProgression.js';
+import runGame from '../index.js';
+import getProgression from '../assets/getProgression.js';
 
 const gameRule = 'What number is missing in the progression?';
 

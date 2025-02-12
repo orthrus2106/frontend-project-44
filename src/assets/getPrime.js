@@ -1,4 +1,4 @@
-export const getPrime = (n) => {
+const getPrime = (n) => {
   let i = 2;
   if (n < 2) return false;
   if (n === 2) return true;
@@ -12,3 +12,5 @@ export const getPrime = (n) => {
   }
   return true;
 };
+
+export default getPrime;

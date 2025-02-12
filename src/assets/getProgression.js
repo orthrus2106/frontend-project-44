@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export const getProgression = () => {
+const getProgression = () => {
   const ary = [];
   const start = _.random(5, 15);
   const step = _.random(2, 7);
@@ -10,3 +10,5 @@ export const getProgression = () => {
   }
   return ary;
 };
+
+export default getProgression;
