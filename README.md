@@ -19,3 +19,7 @@
 ## 🎥 Brain Progression game demonstration:
 
 [View video](https://asciinema.org/a/SaGy9v1fZLIubJEoeGR754q7d)
+
+## 🎥 Brain Is Prime game demonstration:
+
+[View video](https://asciinema.org/a/luByrii3sPsrBAv9Pr334fMf1)
